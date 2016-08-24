@@ -1,0 +1,5 @@
+Data-Binding
+
+Data-binding decreases the amount of code you have to write in order to get your views to be populated, by autogenerating associated object classes and linking them to the views. Direct handling is done in the Activity methods, so you still need to write and manipulate some code, but this makes it way easier. I can see this being really handy in an app that has lots of screens and lots of different views. Data-binding also lessens pitfalls that result from non-artful naming conventions associated with views. 
+
+My e-commerce app could've used data-binding. I came to a point last night while trying to fix my cart where I was burning lots of time looking for all the associated views and trying to follow the path from onCreate through all the steps until the populated viewsbare shown on-screen. With data-binding, I wouldn't have had to worry about a lot of that, because huuman error and error from  mis-identifying similarly named views would be ameliorated. 
